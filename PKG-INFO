@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: PyFFTW3
+Version: 0.3.0
+Summary: PyFFTW: Python bindings to the FFTW3 C-library
+Home-page: www.launchpad.net/pyfftw
+Author: Jochen Schroeder
+Author-email: cycomanic@gmail.com
+License: GPL v3
+Description: PyFFTW provieds Python bindings to the FFTW3  "Fastest Fourier Transform in 
+        the West." C-library(http://www.fftw.org/) for computing discrete Fourier 
+        transforms. It uses numpy and ctypes and includes a somewhat pythonic interface
+        to the FFTW routines, but leaves the concept of creating plans and executing 
+        these plans intact.
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
